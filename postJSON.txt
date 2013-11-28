@@ -1,0 +1,40 @@
+
+// idCountry "MX"
+// http://localhost:8080/ap-locations/MX/locations
+[
+	{
+    	"name": "Santa Fe Cuajimalpa",
+    	"postcode": "05348",
+		"idMeLi":"TUxNQkRFUzI0NDk"
+	},	
+	{
+    	"name": "El Molinito",
+    	"postcode": "05310",
+		"idMeLi":"TUxNQkVMIDczNjRB"
+	},
+	{
+   		"name": "Lomas De Palo Alto",
+    	"postcode": "05100",
+		"idMeLi":"TUxNQkxPTTQ1NzE"
+	},
+	{
+   		"name": "Lomas De Vista Hermosa",
+    	"postcode": "05100",
+		"idMeLi":"TUxNQkxPTTg0ODA"
+	}
+]
+
+// idCountry "VE"
+// http://localhost:8080/ap-locations/VE/locations
+[
+	{
+    	"name": "Lomas del Club Hípico",
+    	"postcode": "1080",
+		"idMeLi":"TUxWQkxPTTkwNTMyNg"
+	},
+	{
+    	"name": "Caracas - Chacao (norte)",
+    	"postcode": "1060",
+		"idMeLi":"TUxWQkxBQzIwNTk0OQ"
+	}
+]

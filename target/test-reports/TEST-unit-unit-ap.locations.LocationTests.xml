@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="santy" name="ap.locations.LocationTests" tests="1" time="1.17" timestamp="2013-11-28T15:55:40">
+  <properties />
+  <testcase classname="ap.locations.LocationTests" name="test_LocationIsNotValid_WithBlankName" time="1.127" />
+  <system-out><![CDATA[--Output from test_LocationIsNotValid_WithBlankName--
+]]></system-out>
+  <system-err><![CDATA[--Output from test_LocationIsNotValid_WithBlankName--
+]]></system-err>
+</testsuite>
