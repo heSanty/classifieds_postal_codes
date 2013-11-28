@@ -13,8 +13,7 @@ class BootStrap {
 			)
 			
 			locationA.save()
-	
-		
+
 			def locationB = new Location(
 				name: 		'El Molinito',
 				postcode: 	'05310',

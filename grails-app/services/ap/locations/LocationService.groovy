@@ -33,20 +33,19 @@ class LocationService {
 		
 		relations.each {
 			idMeLi = it.idMeLi
-			
-			//idMeLi = "TUxNQkFCRTI5MTU"
-			
-			locationMeli = getData(URLAPILocations + idMeLi)
+
+			locationMeli = getData(URLAPILocations + idMeLi)	
 			
 			if (locationMeli == null){
 				throw new NotFoundException("Postcode doesn't exists", "not_found")
 			}
 			
+			locationMeli.geo_information = "[]"
+			
 			locationsMeli.add(locationMeli)
 		}
 		
-		return [paging: [total: locationsMeli.size(), offset: 1, limit: 10], results: locationsMeli, sort: null, available_sorts: null]
-		//return locationsMeli
+		return [paging: [total: locationsMeli.size(), offset: 1, limit: 50], results: locationsMeli, sort: null, available_sorts: null]
 	}
 	
 	def getLocationsRelations(String idCountry, String postcode) {
