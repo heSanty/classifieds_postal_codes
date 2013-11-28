@@ -45,8 +45,8 @@ class LocationService {
 			locationsMeli.add(locationMeli)
 		}
 		
-		//return [paging: [total: locationsMeli.size(), offset: 1, limit: 10], results: locationsMeli, sort: null, available_sorts: null]
-		return locationsMeli
+		return [paging: [total: locationsMeli.size(), offset: 1, limit: 10], results: locationsMeli, sort: null, available_sorts: null]
+		//return locationsMeli
 	}
 	
 	def getLocationsRelations(String idCountry, String postcode) {

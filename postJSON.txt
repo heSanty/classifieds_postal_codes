@@ -1,6 +1,6 @@
 
 // idCountry "MX"
-// http://localhost:8080/ap-locations/MX/locations
+// PostHere: http://localhost:8080/ap-locations/MX/locations
 [
 	{
     	"name": "Santa Fe Cuajimalpa",
@@ -25,7 +25,7 @@
 ]
 
 // idCountry "VE"
-// http://localhost:8080/ap-locations/VE/locations
+// PostHere: http://localhost:8080/ap-locations/VE/locations
 [
 	{
     	"name": "Lomas del Club Hípico",

@@ -23,6 +23,8 @@ class BootStrap {
 			)
 			
 			locationB.save()
+			
+			
 		}
 		
 		test {}
