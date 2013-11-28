@@ -13,13 +13,14 @@ hibernate {
 environments {
     development {
         dataSource {
-            //dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
-            //url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
+            dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
+            url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
 			
-			dbCreate = 'create-drop'  //create-drop // one of 'create', 'create-drop','update'
-			username = "root"
-			password = "Mlm123456"
-			url = "jdbc:mysql://localhost/AutoplazaTesteo"
+			
+			//dbCreate = 'update'  //create-drop // one of 'create', 'create-drop','update'
+			//username = "root"
+			//password = "Mlm123456"
+			//url = "jdbc:mysql://localhost/AutoplazaTesteo"
         }
 		
     }
